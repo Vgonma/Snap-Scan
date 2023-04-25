@@ -1,6 +1,9 @@
 Rails.application.routes.draw do
+  get 'pages/home'
   devise_for :users
-  root 'groups#index'
+  root 'pages#home'
+
+  get '/user' => "groups#index", :as => :user_root
 
   resources :groups do
     resources :operations
