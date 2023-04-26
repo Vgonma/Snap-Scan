@@ -4,7 +4,8 @@ class OperationsController < ApplicationController
 
   # GET /operations or /operations.json
   def index
-    @operations = Operation.all
+    @group = Group.find(params[:group_id])
+    @operations = @group.operations
   end
 
   # GET /operations/1 or /operations/1.json
@@ -12,6 +13,7 @@ class OperationsController < ApplicationController
 
   # GET /operations/new
   def new
+    @group = Group.find(params[:group_id])
     @operation = Operation.new
   end
 
