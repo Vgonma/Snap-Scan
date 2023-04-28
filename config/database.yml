@@ -81,6 +81,7 @@ test:
 #
 production:
   <<: *default
+  url: <%= ENV['DATABASE_URL'] %>
   database: Snap_Scan_production
   username: Snap_Scan
   password: <%= ENV["SNAP_SCAN_DATABASE_PASSWORD"] %>
