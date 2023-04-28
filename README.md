@@ -48,7 +48,8 @@
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Live Demo <a name="demo"></a>
-Check out the [live demo](https://snap-scan-on-rails.onrender.com)
+- Check out the [live demo](https://snap-scan-on-rails.onrender.com)
+- [Live presentation video](https://www.loom.com/share/f7b241493c01484a81ab8223ee60a4df)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
